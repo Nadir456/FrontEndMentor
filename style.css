@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,600;0,800;1,600;1,800&family=Ubuntu:wght@300&display=swap');
+body{
+    font-family: 'Figtree', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+
+}
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+
+.main-div{
+    height: 100vh; width: 100vw; 
+    display: flex; justify-content: center; align-items: center;
+}
+.center-div{
+    height: 80%; width: 900px; 
+    background-color: #F4D04E; 
+    display: flex; justify-content: center;
+    align-items: center;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.35) 0px 2px 6px 2px;
+}
+.center{
+    display: flex; justify-content: center; 
+    position: relative; z-index: 1;
+}
+.card{
+    height: 60%; width: 300px;
+    background-color: white; border-radius: 15px;
+    border: 1px solid black; position: relative; 
+    overflow: hidden; z-index: 3;
+    
+}
+    
+.card .image{
+    padding: 10px; text-align: center;
+}
+.card .image img{
+    border-radius: 15px; width: 90%;
+}
+.card a{
+    background-color: #F4D04E; color: black;
+    margin-left: 25px; padding: 4px 10px; border-radius: 5px; 
+    text-decoration: none; cursor: pointer; transition: 0.5s all;
+}
+.card a:hover{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.card h2{
+    font-size: 15px;
+}
+.card .publish{
+    margin: 10px 0px 10px 25px;
+    font-size: 12px;
+}
+.card .content p{
+    margin: 10px 0px 10px 0px;
+    font-size: 12px; color: #b3b2b2;
+}
+.card p{
+    margin: 10px 0px 10px 0px;
+    font-size: 12px;
+}
+.card .content{
+    margin-left: 25px;
+}
+.card .author{
+    margin: 20px 5px 20px 25px; display: flex; align-items: center;    
+}
+.card .author img{
+    transition: 0.5s all; border-radius: 50%;
+}
+.card .author:hover img{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    
+}
+.card .author h5{
+    margin-left: 25px;
+}
